@@ -1,0 +1,133 @@
+<!-- emmet -> auto complete the html part
+live server -> live updates of the code -->
+
+<!-- html boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastfoodspice club.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+</head>
+<body>
+   
+    <!-- <form class="box" action="login.html" method="POST"> -->
+        <h1>
+            Sign In
+        </h1>
+        <input type="text" name="" placeholder="Enter Username" id="username">
+        <input type="password" name="" placeholder="Enter Password" id="password">
+        <input type="sumbit" name="" placeholder="Enter D.O.B"><button onclick="validate()">Login</button>
+       
+    </form>
+    <h1 class="text-center">ONLINE FAST FOOD DELIVERY</h1>
+    
+    <div class="orderSuccessful" id="orderSuccessful">
+        <div class="text-center">
+            <img src="./booking-congrats.4d81c4bf.svg" alt="">
+            <h2>We have received your order successfully!</h2>
+            <div class="details">
+                <div class="detailsChild"><p>Item: </p> <p id="name">Veg Supreme Pizza</p></div>
+                <div class="detailsChild"><p>Price </p> <p id="price">99</p></div>
+                <div class="detailsChild"><p>GST </p> <p id="gst">117</p></div>
+                <div class="detailsChild"><p>Delivery Charges </p> <p id="deliveryCharge">40</p></div>
+                <div class="detailsChild"> <strong> <p>Total </p></strong> <strong> <p id="total">140</p></strong></div>
+
+            </div>
+        </div>
+    
+        
+    </div>
+    <div class="flex" id="foodItems">
+        <div class="food-items"  >
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?burger" class="food-img" alt="">
+            <p class="ratings">4.3 Ratings (3429)</p>
+            </div>
+            <h2>Veg Supreme Burger</h2>
+            <h3>Rs 99</h3>
+            <h3>A mixed vegetable patty, crowned with onions, lettuce, liquid cheddar cheese and tandoori sauce.</h3>
+            <p>--------------DELIVERING FROM---------------</p>
+            <h3>Adarsh Singh (Veg Supreme Burger Kitchen)--Within--30 mins</h3>
+            <button class="btn" id="btn" data-name="Veg Supreme Burger" data-price="99"  >Order Now</button>
+        </div>
+    
+        <div class="food-items">
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?salad" class="food-img" alt="">
+            <p class="ratings">4.1 Ratings (1498)</p>
+            </div>
+            <h2>Green Salad</h2>
+            <h3>Rs 199</h3>
+            <h3>A mixed mushroom + onions + tomato + capsicum + golden corn + cheese sauce.</h3>
+            <p>--------------DELIVERING FROM---------------</p>
+            <h3>Fateh Bahadur Singh (Green Salad club)--Within--35 mins</h3>
+            <button class="btn" id="btn" data-name="Green Salad" data-price="199">Order Now</button>
+        </div>
+
+        <div class="food-items">
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?pizza" class="food-img" alt="">
+            <p class="ratings">4.2 Ratings (1498)</p>
+            </div>
+            <h2>Veg Supreme Pizza</h2>
+            <h3>Rs 399</h3>
+            <h3>Red, Yellow Green Bell, Black Olives, Babycorn, Jalapenos, Mushroom, Exoticherbs.</h3>
+            <p>--------------DELIVERING FROM---------------</p>
+            <h3>Vijay Kumar Singh (Dominos Pizza Club)--Within--45 mins</h3>
+            <button class="btn" id="btn" data-name="Veg Supreme Pizza" data-price="399">Order Now</button>
+        </div>
+    </div>
+    <div class="More-items">
+    <button onclick="help-btn-2" id="help-btn-2">Order More items.....</button>
+</div>
+
+    <h1>Find the best restaurants for fastfoodspice club in India</h1>
+    <h4>by fastfoodspice club.com</h4>
+    <h4>
+        <h2>Recent Articles</h2>
+       <h3>The Fast food Vending Machine</h3> 
+        <h4>Most college students would deem a Fast food vending machine too good to be true; however, technology has graced the world with a vending machine that ...
+        Fast food Crust Made from Cauliflower
+        The desire to eat healthier in general is trending, but the people’s love for Fast food is ...
+        Cauliflower Fast food Crust
+        The desire to eat healthier in general is trending, but the people’s love for Fast food is ...
+        Digital Fast food Ordering has Taken Over
+        The phenomenon of digitally ordering delivery Fast food has skyrocketed in popularity. Not only is online ordering more convenient for the customer, but ...
+        Thirteen Percent of Americans are Eating Fast food Daily
+        Everyone knows American’s absolutely love their Fast food, so it might seem redundant to conduct a government report on our daily consumption of this ...</h4></h4>
+
+        <h4>
+            <h2>Featured Categories</h2>
+            
+           <h3> Fast food Coupons
+            Find great deals on Fast food tonight!</h3>
+            
+            <h3>Fast food Recipes
+                Fast and Easy Fast food Recipes!</h3>
+            
+            <h3><b>Local Fastfood at your fingertips!</b></h3>
+            <h2>Find A Fast Food Chain Near You</h2>
+            <h3>Dominos Pizza</h3>
+            <h3>Veg Supreme Burger Kitchen</h3>
+            <h3>Green Salad club</h3>
+            <h3>Papa Johns restaurants</h3>
+            <h1>Top Fastfoodspice Club News</h1>
+            <h2>Breakfast food</h2>
+            <h3>We have all had Pizza for breakfast at some point in our lives, but have you ever tried a breakfast style pizza? Yes: eggs, bacon, cheese, and ...
+                Homemade Breakfast Pizza</h3>
+            <h3>We have all had Veg Supreme Burger for breakfast at some point in our lives, but have you ever tried a breakfast style Veg Supreme Burger ? Yes: eggs, bacon, cheese, and ...
+                Pay for Veg Supreme Burger Kitchen with Google Wallet</h3>
+                Domino’s Pizza and Google have teamed up to promote their own mutual interests, by providing customers with the option to purchase their Domino’s ...</h3>
+
+  
+
+    <button onclick="help-btn()">Chat with us!</button>
+
+
+   
+</body>
+</html>
